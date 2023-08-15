@@ -1,0 +1,137 @@
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 2814, the first child process inside the sandbox
+Child process initialized in 26.07 ms
+1594201314855	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2UZVfCSQtVGe"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 2814, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.2UZVfCSQtVGe ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.2UZVfCSQtVGe Child process initialized in 23.61 ms
+1594201316131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594201316132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594201316132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594201316132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 559, tid 559, syscall 315, args 559 140000090466368 56 0 0 140000090466368.
+Sandbox: seccomp sandbox violation: pid 577, tid 577, syscall 315, args 577 139935312050176 56 0 0 139935312050176.
+JavaScript error: moz-extension://36801ce5-8b12-4165-be31-dcff6a229e2b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+
+(/usr/lib/firefox/firefox:559): dconf-WARNING **: 12:42:00.374: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Erişim engellendi
+1594201321093	Marionette	INFO	Listening on port 34159
+1594201321170	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: TypeError: settings is undefined moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js 611
+[[Exception stack
+isPrivacyBadgerEnabled@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js:611:25
+refreshIconAndContextMenu@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js:794:14
+startBackgroundListeners/<@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js:816:14
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:594:13
+fire@resource://gre/modules/ExtensionChild.jsm:1171:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1175:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+Extension error: TypeError: settings is undefined moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js 611
+[[Exception stack
+isPrivacyBadgerEnabled@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js:611:25
+isPrivacyBadgerDisabled@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/background.js:636:18
+onBeforeRequest@moz-extension://7c5270c3-55d0-40ce-b2af-cc376e6d01b5/js/webrequest.js:81:14
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:594:13
+fire@resource://gre/modules/ExtensionChild.jsm:1171:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1175:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+JavaScript error: , line 0: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: can't access dead object
+JavaScript error: moz-extension://36801ce5-8b12-4165-be31-dcff6a229e2b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://36801ce5-8b12-4165-be31-dcff6a229e2b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://36801ce5-8b12-4165-be31-dcff6a229e2b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:414:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:414:13
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:414:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:414:13
+]]
+Sandbox: seccomp sandbox violation: pid 678, tid 678, syscall 315, args 678 139944213876800 56 0 0 139944213876800.
+Sandbox: seccomp sandbox violation: pid 727, tid 727, syscall 315, args 727 140622401400448 56 0 0 140622401400448.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
+close@resource://gre/modules/ExtensionContent.jsm:913:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
+observe@resource://gre/modules/ExtensionContent.jsm:1016:27
+]]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+[Parent 433, Gecko_IOThread] WARNING: pipe error (75): Bağlantı karşıdan kesildi: file /build/firefox-eOhMCY/firefox-69.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1594201335211	Marionette	INFO	Stopped listening on port 34159

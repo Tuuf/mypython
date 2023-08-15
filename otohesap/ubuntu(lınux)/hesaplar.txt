@@ -1,0 +1,6 @@
+KULANICIADI==ornek
+adsoyad===ornek
+sifre===ornekornekornek
+eposta==ornek@eposta.com
+	
+
